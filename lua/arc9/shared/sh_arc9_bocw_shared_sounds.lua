@@ -80,6 +80,13 @@ sound.Add({
 })
 
 sound.Add({
+    name = "ARC9_BOCW.Shared_Decay_Close_ShotgunDB",
+    channel = CHAN_STATIC,
+    volume = 0.8,
+    sound = "weapons/arc9/bocw/shotgun_close_decay_dragon.wav"
+})
+
+sound.Add({
     name = "ARC9_BOCW.Shared_Decay_Close_Suppressor",
     channel = CHAN_STATIC,
     volume = 0.3,
