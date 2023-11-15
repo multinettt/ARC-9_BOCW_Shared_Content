@@ -94,6 +94,30 @@ sound.Add({
 })
 
 --------------------------------------------------
+-- MELEE
+
+sound.Add({
+    name = "ARC9_BOCW.Shared_Rifle_Melee_Swing",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = { "weapons/arc9/bocw/rifle_melee_swing1.wav",
+    "weapons/arc9/bocw/rifle_melee_swing2.wav",
+    "weapons/arc9/bocw/rifle_melee_swing3.wav",
+    "weapons/arc9/bocw/rifle_melee_swing4.wav",
+    "weapons/arc9/bocw/rifle_melee_swing5.wav",
+    "weapons/arc9/bocw/rifle_melee_swing6.wav" }
+})
+
+sound.Add({
+    name = "ARC9_BOCW.Shared_Rifle_Melee_Hit",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = { "weapons/arc9/bocw/rifle_melee_hit1.wav",
+    "weapons/arc9/bocw/rifle_melee_hit2.wav",
+    "weapons/arc9/bocw/rifle_melee_hit3.wav"}
+})
+
+--------------------------------------------------
 -- BLANK
 
 sound.Add({
