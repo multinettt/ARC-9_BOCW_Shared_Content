@@ -1,0 +1,1 @@
+list.Set("ContentCategoryIcons", "ARC9 - Black Ops Cold War", "entities/arc9_bocw.png")
