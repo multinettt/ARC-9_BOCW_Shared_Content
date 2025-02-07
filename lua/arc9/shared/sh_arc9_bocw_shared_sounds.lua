@@ -118,6 +118,29 @@ sound.Add({
 })
 
 --------------------------------------------------
+-- ADS
+
+sound.Add({
+    name = "ARC9_BOCW.Shared_ADS_In",
+    channel = CHAN_AUTO,
+    volume = 0.3,
+    sound = { "weapons/arc9/bocw/ads_in1.wav",
+    "weapons/arc9/bocw/ads_in2.wav",
+    "weapons/arc9/bocw/ads_in3.wav",
+    "weapons/arc9/bocw/ads_in4.wav",
+    "weapons/arc9/bocw/ads_in5.wav" }
+})
+
+sound.Add({
+    name = "ARC9_BOCW.Shared_ADS_Out",
+    channel = CHAN_AUTO,
+    volume = 0.3,
+    sound = { "weapons/arc9/bocw/ads_out1.wav",
+    "weapons/arc9/bocw/ads_out2.wav",
+    "weapons/arc9/bocw/ads_out3.wav"}
+})
+
+--------------------------------------------------
 -- BLANK
 
 sound.Add({
