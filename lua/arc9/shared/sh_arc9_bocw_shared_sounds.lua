@@ -66,6 +66,13 @@ sound.Add({
 })
 
 sound.Add({
+    name = "ARC9_BOCW.Shared_Decay_Close_M16",
+    channel = CHAN_WEAPON,
+    volume = 0.25,
+    sound = "weapons/arc9/bocw/rifle_close_decay.wav"
+})
+
+sound.Add({
     name = "ARC9_BOCW.Shared_Decay_Close_Pistol",
     channel = CHAN_STATIC,
     volume = 0.25,
