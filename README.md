@@ -4,6 +4,6 @@ Various weapons and attachments on BOCW sometimes share the same materials. Best
 
 # [Shared Content on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2989657655)
 
-# You need to clone this repository alongside ARC-9 BOCW to your addons folder if you plan to download this weapon pack from GitHub.
+# You need to clone this repository alongside any ARC9 BOCW pack to your addons folder if you plan to download this weapon pack from GitHub.
 
 ### ***[← back to ARC9 BOCW](https://github.com/multinettt/ARC-9_BOCW)***
