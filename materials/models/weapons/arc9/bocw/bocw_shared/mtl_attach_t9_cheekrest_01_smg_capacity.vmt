@@ -28,6 +28,10 @@
     "$envmap" "\specularity_00"
     "$envmaptint" "[0.102 0.102 0.102]"                 
 
+    "$detail" ""
+    "$detailblendfactor" "0.5"
+    "$detailblendmode" "2"
+
     //remove this if not using MWB
     "Proxies"
     {
@@ -37,6 +41,12 @@
             "max" "0.4"
             "envmap" "\specularity_00"
             "color" "[0.102 0.102 0.102]"
+        }
+        "CustomCamo" 
+        {
+            camoTexture $detail
+            camoScale $detailscale
+            blend $detailblendfactor
         }
     }
 }
