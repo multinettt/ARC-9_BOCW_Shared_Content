@@ -124,6 +124,27 @@ sound.Add({
     "weapons/arc9/bocw/rifle_melee_hit3.wav"}
 })
 
+sound.Add({
+    name = "ARC9_BOCW.Shared_Melee_impact",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = {"weapons/arc9/bocw/melee_impact1.wav", "weapons/arc9/bocw/melee_impact2.wav", "weapons/arc9/bocw/melee_impact3.wav"}
+})
+
+sound.Add({
+    name = "ARC9_BOCW.Shared_Melee_slash",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = {"weapons/arc9/bocw/melee_slash1.wav", "weapons/arc9/bocw/melee_slash2.wav", "weapons/arc9/bocw/melee_slash3.wav", "weapons/arc9/bocw/melee_slash4.wav"}
+})
+
+sound.Add({
+    name = "ARC9_BOCW.Shared_Melee_stab",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = {"weapons/arc9/bocw/melee_stab1.wav", "weapons/arc9/bocw/melee_stab2.wav", "weapons/arc9/bocw/melee_stab3.wav", "weapons/arc9/bocw/melee_stab4.wav"}
+})
+
 --------------------------------------------------
 -- ADS
 
