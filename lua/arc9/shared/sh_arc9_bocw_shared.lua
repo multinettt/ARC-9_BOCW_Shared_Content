@@ -24,7 +24,7 @@ if CLIENT then--// Taken and adapted from https://github.com/Mal0-1471/arc9_eft_
 	        	type = "bool",
 	        	text = "Enable Custom Slot",
 	            convar = "bocw_customslot",
-	            desc = "Makes the Custom Slot visible in the customization menu.\n\nPeople want this i think"
+	            desc = "Makes the Custom Slot visible in the customization menu.\n\nPeople want this i think\n\nREQUIRES RESTART."
 	        },
         }
         
