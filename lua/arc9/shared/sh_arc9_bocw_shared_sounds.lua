@@ -1,7 +1,7 @@
 --=============================================================================
---   CALL OF DUTY: BLACK OPS COLD WAR
---   Shared Sounds
---   LUA - SOUNDS
+--   ARC9 CALL OF DUTY: BLACK OPS COLD WAR
+--   SHARED CONTENT
+--   SOUNDS MASTER FILE
 
 -----------------
 -- DRY FIRE
@@ -113,6 +113,16 @@ sound.Add({
     "weapons/arc9/bocw/rifle_melee_swing4.wav",
     "weapons/arc9/bocw/rifle_melee_swing5.wav",
     "weapons/arc9/bocw/rifle_melee_swing6.wav" }
+})
+
+sound.Add({
+    name = "ARC9_BOCW.Shared_Knife_Swing",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = { "weapons/arc9/bocw/knife_swing1.wav",
+    "weapons/arc9/bocw/knife_swing2.wav",
+    "weapons/arc9/bocw/knife_swing3.wav",
+    "weapons/arc9/bocw/knife_swing4.wav" }
 })
 
 sound.Add({
